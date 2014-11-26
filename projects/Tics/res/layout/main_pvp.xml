@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@string/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:lines="1"
+        android:padding="5sp"
+        android:text="@string/tv_heading"
+        android:textColor="@color/txt_color"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TableLayout
+        android:id="@+id/tl_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tr_first"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_grid11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp" />
+
+            <Button
+                android:id="@+id/btn_grid12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp" />
+
+            <Button
+                android:id="@+id/btn_grid13"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_second"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_grid21"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp" />
+
+            <Button
+                android:id="@+id/btn_grid22"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp" />
+
+            <Button
+                android:id="@+id/btn_grid23"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_third"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_grid31"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp" />
+
+            <Button
+                android:id="@+id/btn_grid32"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp" />
+
+            <Button
+                android:id="@+id/btn_grid33"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp" />
+        </TableRow>
+        
+        <ProgressBar
+                android:id="@+id/pb_time"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        <TableRow
+            android:id="@+id/tr_info"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_restart"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp"
+                android:text="@string/btn_restart"
+                android:textColor="@color/txt_color"
+                android:layout_span="1" />
+
+            <Button
+                android:id="@+id/btn_menu"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp"
+                android:text="@string/btn_menu"
+                android:textColor="@color/txt_color"
+                android:layout_span="2" />
+            
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

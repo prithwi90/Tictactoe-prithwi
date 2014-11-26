@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Tics</string>
+    <string name="pvp">Player vs Player</string>
+    <string name="pvc">Player vs Computer</string>
+    <string name="bg">@drawable/backbround</string>
+    <string name="tv_heading">Tic Tac Toe Colors</string>
+    <string name="btn_restart">Again</string>
+    <string name="btn_menu">Main Menu</string>
+    <string name="iv_sign">My Sign</string>
+    <string name="btn_aboutme">About the Dev</string>
+    <string name="tv_aboutme">Created by: Prithwi Sarkar\nThis App is a Pre-release\n\nVersion: 1.0a\n\nFeedbacks and Bug Reports to\nfb.com/omega.apx</string>
+
+    <color name="txt_color">#8EAB27</color>
+    <color name="blue">#008ED7</color>
+    <color name="red">#D70000</color>
+
+</resources>
